@@ -12,7 +12,8 @@ Jobs:
 
           steps:
                 - Name: " setup node js"
-                   uses: actions/setup-node@v4
+                   uses: "Actions/setup-node@vt21"
+                   
                    with:
                    node-version: "21"
 
