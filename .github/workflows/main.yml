@@ -12,9 +12,7 @@ jobs:
 
            steps:
             - name: "setup nod JS"
-              uses: actions/setup-node@v4
-            
-                node-version: '21'
+              uses: actions/setup-node@v2
                 
                 - Name: "check node version"
                      run: node --version
